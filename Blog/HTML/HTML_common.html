@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="post.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- post page left sub-topic section -->
+     <div class="post-section-left">
+        <div class="post-left-topic">
+            <h2>HTML</h2>
+        </div>
+        <div class="post-left-topics">
+            <a class="post-left-sub-topic" class="" title="Introduction" href="HTML_introduction.html">Introduction</a>
+
+            <a class="post-left-sub-topic" class="" title="HTML Basic" href="HTML_basic.html">HTML Basic</a>
+
+            <a class="post-left-sub-topic" class="" title="HTML Tags" href="HTML_tags.html">HTML Tags</a>
+
+            <a class="post-left-sub-topic" class="" title="HTML Attribute" href="HTML_attribute.html">HTML Attribute</a>
+
+            <a class="post-left-sub-topic" class="" title="HTML Comments" href="HTML_comment.html">HTML Comments</a>
+
+            <a class="post-left-sub-topic" class="" title="HTML Heading" href="HTML_heading.html">HTML Heading</a>
+
+            <a class="post-left-sub-topic" class="" title="HTML Paragraph" href="HTML_paragraph.html">HTML Paragraph</a>
+
+            <a class="post-left-sub-topic" class="" title="HTML Links" href="HTML_links.html">HTML Links</a>
+            
+        </div>
+    </div>
+    <!-- end of post page left sub-topic section -->
+
+    <script>
+        // for background yellow color on click
+        $(document).ready(function(){
+            $('.post-left-sub-topic').click(function(){
+                $(this).toggleClass('selected-post').siblings().removeClass('selected-post');
+             });
+        });
+    </script>
+</body>
+</html>

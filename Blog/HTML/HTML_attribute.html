@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Attributes | Types of attribute</title>
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/vs2015.css" />
+
+    <style>
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- post page -->
+        <div class="post-page">
+            <!-- section 1 -->
+            <section class="post-page-section-1 header">
+                
+            <!-- header.php -->
+            <?php
+                    include 'header.php';
+                    ?>
+                <!-- end of header.php -->
+
+                <!-- navigation -->
+                 <?php
+                    include 'navigation_common.php';
+                    ?>
+                <!-- end of navigation -->
+                
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <!-- main post section -->
+            <div class="post-section-2-wrapper">
+                <section class="post-section-2">
+                    
+                    <!-- post page left sub-topic section -->
+                    <?php
+                        include 'HTML_common.php';
+                    ?>
+                    <!-- end of post page left sub-topic section -->
+                    <!-- section mid -->
+                    <div class="post-section-mid">
+                        <div class="post-mid-topic">
+                            <abbr><h1>HTML Attribute</h1></abbr>
+                        </div>
+                        <p class="article"><span>HTML attribute</span> provide additional information about HTML element. HTML attribute is one of the important part of a webpage.</p>
+
+                        <div class="component-section">
+                            <h3 class="component">Attribute syntax</h3>
+                            <p class="article">
+                                Attribute is placed in start tag of a element. Every html tag can have any number of attributes.<br>
+                                <i>attribute_name</i> = "<i>attribute_value</i>"<br>
+                                You'll understand it better in below examples.
+                            </p>
+                        </div>
+
+                        <div class="component-section">
+                            <abbr><h3 class="component">Types of attribute</h3></abbr>
+                            <p class="article">There are <span>two types of attribute</span>, 1.global attribute and 2.element specific attribute.</p>
+                            <dl class="article">
+                                <dt><abbr><b><h4>1. Global atrribute</h4></b></abbr></dt>
+                                <dd>Global attribute can be used on any of the element in a html file. Simply, whatever data you put in a global attribute, it a assigned to every element of a html file. Hence named GLOBAL attribute.</dd><br>
+                                <dd>
+                                    <h5 style="font-weight: 500; font-size :2rem;"><span>Global atrribute example</span></h5>
+                                    <span class="span-tag">class</span> = "<i>class_name</i>"<br>
+                                    <span class="span-tag">id</span> = "<i>id_name</i>"<br>
+                                    <span class="span-tag">style</span> = "<i>property-1: value; property-2: value;</i>"<br>
+                                    <span class="span-tag">title</span> = "<i>title_name</i>"<br><br>
+                                </dd>
+                            </dl>
+                            <dl class="article">
+                                <dt><abbr><b><h4>1. Element specific atrribute</h4></b></abbr></dt>
+                                <dd>Element specific attribute can be used only on a specified element in a html file. Simply, whatever data you assign an element specific attribute is limited to that specific element only. Hence named ELEMENT SPECIFIC attribute.</dd><br>
+                                <dd>
+                                    <h5 style="font-weight: 500; font-size :2rem;"><span>Element specific atrribute example</span></h5>
+                                    1. Element specific atrribute
+                                    <span class="span-tag">href</span> = "<i>url</i>"<br>
+                                    <span class="span-tag">src</span> = "<i>url/path</i>"<br>
+                                    <span class="span-tag">width</span> = "<i>value</i>"<br>
+                                    <span class="span-tag">alt</span> = "<i>alternate_text</i>"<br><br>
+                                </dd>
+                            </dl>
+                        </div>
+                        
+                        <div class="component-section">
+                            <h3 class="component">href attribute</h3>
+                            <p class="article">
+                                The <span class="span-tag">&lt;a&gt;</span> tag defines hyperlink. The <span class="span-tag">&lt;href&gt;</span> attribute specifies the url of the page link goes to:
+                            </p>
+
+                            <div class="code-box">
+                                <h4 class="code-box-heading">HTML href attribute example</h4>
+                                <div class="code-inner-box">
+                                    <pre><code>&lt;a href=" http://www.amazon.com "&gt; Amazon &lt;/a&gt;</code></pre>
+                                </div>
+                            </div>
+                            <img src="" alt="href attribute" class="component-image">
+
+                            <p class="article">You will learn more about links in our <a href="#">HTML Links</a> chapter.</p>
+                        </div>
+                        
+                        <div class="component-section">
+                            <h3 class="component">src and alt attribute</h3>
+                            <p class="article">
+                                The <span class="span-tag">&lt;img&gt;</span> tag is used to embed an image in a HTML page. The <span class="span-tag">src</span> attribute specifies path/url to the image to be displayed.<br>
+                                The required <span class="span-tag">alt</span> attribute for the <span class="span-tag">&lt;img&gt;</span> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the <span class="span-tag">src</span> attribute, or if the user uses a screen reader.
+                            </p>
+                            <div class="code-box">
+                                <h4 class="code-box-heading">HTML img attribute example</h4>
+                                <div class="code-inner-box">
+                                    <pre><code>&lt;img src=" <i> image_url/path.jpg </i> " alt=" <i> alternate_text </i> &gt;</code></pre>
+                                </div>
+                            </div>
+                            
+                            <img src="" alt="href attribute" class="component-image">
+
+                            <p class="article">You will learn more about images in our <a href="#">HTML Images</a> chapter.</p>
+
+                            <p class="article"><a href="#">How to define image path from a folder in local drive?</a></p>
+                            
+                        </div>
+                        
+                        <div class="component-section">
+                            <h3 class="component">Width & height attribute</h3>
+                            <p class="article">
+                                The <span class="span-tag">&lt;img&gt;</span> tag should also contain the <span class="span-tag">width</span> and <span class="span-tag">height</span> attributes, which defines width and height of image respectively in pixels.
+                            </p>
+
+                            <div class="code-box">
+                                <p class="code-inner-box">
+                                &lt;img  src=" image_url/path.jpg " &nbsp;&nbsp;width="100px" &nbsp;&nbsp;height="100px"&gt;
+                                </p>
+                            </div>
+                            <img src="" alt="Width and height attribute" class="component-image">
+                            
+                        </div>
+                        
+                        <div class="component-section">
+                            <h3 class="component">title attribute</h3>
+                            <p class="article">
+                                The <span class="span-tag">&lt;title&gt;</span> attribute defines some extra information or value about an element when cursor is over an element.
+                            </p>
+
+                            <div class="code-box">
+                                <h4 class="code-box-heading">HTML title attribute example</h4>
+                                <div class="code-inner-box">
+                                    <pre><code>&lt;button  title=" Submit " &nbsp;&nbsp;&gt; Save &lt;/button&gt;</code></pre>
+                                </div>
+                            </div>
+                            <img src="" alt="Title attribute" class="component-image">
+                            
+                        </div>
+                        
+                        <div class="component-section">
+                            <h3 class="component">style attribute</h3>
+                            <p class="article">
+                                The <span class="span-tag">&lt;style&gt;</span> attribute is used to add styles to an element, such as color, font, weight, size, and more.
+                            </p>
+
+                            <div class="code-box">
+                                <h4 class="code-box-heading">HTML title attribute example</h4>
+                                <div class="code-inner-box">
+                                    <pre><code>&lt;p  style=" color: yellow " &nbsp;&nbsp;&gt; This is yellow paragraph. &lt;/p&gt;</code></pre>
+                                </div>
+                            </div>
+                            
+                            <img src="" alt="Style attribute" class="component-image"><br>
+                            <p class="article">You will learn more about styles in our <a href="#">HTML Style</a> chapter.</p>
+                            
+                        </div>
+
+                        
+                       
+                    </div> 
+                    <!-- end of section mid -->
+
+                        
+
+                    <div class="post-section-right">
+                        <!-- code here to add at right of post page -->
+                    </div>
+                </section>
+            </div>
+            <!-- end of main post section -->
+            <!-- section 2 -->
+
+            <!-- footer.php -->
+            <?php
+                include 'footer.php';
+            ?>
+            <!-- end of footer.php -->
+
+            <!-- scroll btn -->
+            <!-- <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+            </a> -->
+            <!-- end of scroll btn -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="script.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>

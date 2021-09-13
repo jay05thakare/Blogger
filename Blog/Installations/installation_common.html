@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="post.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- post page left sub-topic section -->
+     <div class="post-section-left">
+        <div class="post-left-topic">
+            <h2>Installation</h2>
+        </div>
+        <div class="post-left-topics">
+            <a class="post-left-sub-topic" title="HTML" class="" href="#">Introduction</a>
+            <a class="post-left-sub-topic" title="VS Code Download" class="" href="#">VS Code Download</a>
+            <!-- <a class="post-left-sub-topic" title="Javascript" class="" href="#">Javascript</a>
+            <a class="post-left-sub-topic" title="PHP" class="" href="#">PHP</a>
+            <a class="post-left-sub-topic" title="Installation" class="" href="#">Installation</a> -->
+            
+        </div>
+    </div>
+    <!-- end of post page left sub-topic section -->
+
+    <script>
+        // for background yellow color on click
+        $(document).ready(function(){
+            $('.post-left-sub-topic').click(function(){
+                $(this).toggleClass('selected-post').siblings().removeClass('selected-post');
+             });
+        });
+    </script>
+</body>
+</html>
+
+
+<!-- <div class="post-left-sub-topics" >
+            <button class="post-left-button "> <a href="introduction.php"  class="post-left-sub-topic selected-post">Introduction</a> </button>
+            <button class="post-left-button"> <a href="vs_code_download.php" class="post-left-sub-topic">VS Code Download</a> </button>
+            <button class="post-left-button"> <a href="" class="post-left-sub-topic">sub-topic-3</a> </button>
+            <button class="post-left-button"> <a href="" class="post-left-sub-topic">sub-topic-4</a> </button>
+            <button class="post-left-button"> <a href="" class="post-left-sub-topic">sub-topic-5</a> </button>
+            <button class="post-left-button"> <a href="" class="post-left-sub-topic">sub-topic-6</a> </button>
+            <button class="post-left-button"> <a href="" class="post-left-sub-topic">sub-topic-7</a> </button>
+            <button class="post-left-button"> <a href="" class="post-left-sub-topic">sub-topic-8</a> </button>
+            <button class="post-left-button"> <a href="" class="post-left-sub-topic">sub-topic-9</a> </button>
+            <button class="post-left-button"> <a href="" class="post-left-sub-topic">sub-topic-10</a> </button>
+        </div> -->

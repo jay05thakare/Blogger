@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction</title>
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- post page -->
+        <div class="post-page">
+            <!-- section 1 -->
+            <section class="post-page-section-1 header">
+                
+            <!-- header.php -->
+            <!-- <?php
+                    include 'header.php';
+                    ?> -->
+                <!-- end of header.php -->
+
+                <!-- navigation -->
+                 <!-- <?php
+                    include 'navigation_common.php';
+                    ?> -->
+
+                    <!-- navigation -->
+                <div class="post-navigation-wrapper">
+                    <div class="post-navigation">
+                        <a class="navigation-item" title="Home" href="learn_blog.html"><i class="fa fa-home"></i></a>
+                        <a class="navigation-item" title="HTML"  href="HTML_introduction.html">HTML</a>
+                        <a class="navigation-item" title="CSS" class="" href="#">CSS</a>
+                        <!-- <a class="navigation-item" title="Javascript" class="" href="#">Javascript</a> -->
+                        <a class="navigation-item" title="PHP" class="" href="#">PHP</a> -->
+                        <a class="navigation-item" title="HTML" class="" href="#">Movies</a>
+                        <a class="navigation-item" title="Installation"  href="#">Installation</a>
+                        <!-- <a title="Topic 6" class="">Topic 6</a>
+                        <a title="Topic 7" class="">Topic 7</a>
+                        <a title="Topic 8" class="">Topic 8</a>
+                        <a title="Topic 9" class="">Topic 9</a>
+                        <a title="Topic 10" class="">Topic 10</a> -->
+                    </div>
+                </div>
+                <!-- end of navigation -->
+                <!-- end of navigation -->
+                
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <!-- main post section -->
+            <div class="post-section-2-wrapper">
+                <section class="post-section-2">
+                    
+                    <!-- post page left sub-topic section -->
+                    <!-- <?php
+                        include 'HTML_common.php';
+                    ?> -->
+
+                    <!-- post page left sub-topic section -->
+                    <div class="post-section-left">
+                        <div class="post-left-topic">
+                            <h2>HTML</h2>
+                        </div>
+                        <div class="post-left-topics">
+                            <a class="post-left-sub-topic" class="" title="Introduction" href="HTML_introduction.html">Introduction</a>
+
+                            <a class="post-left-sub-topic" class="" title="HTML Basic" href="HTML_basic.html">HTML Basic</a>
+
+                            <a class="post-left-sub-topic" class="" title="HTML Tags" href="HTML_tags.html">HTML Tags</a>
+
+                            <a class="post-left-sub-topic" class="" title="HTML Attribute" href="HTML_attribute.html">HTML Attribute</a>
+
+                            <a class="post-left-sub-topic" class="" title="HTML Comments" href="HTML_comment.html">HTML Comments</a>
+
+                            <a class="post-left-sub-topic" class="" title="HTML Heading" href="HTML_heading.html">HTML Heading</a>
+
+                            <a class="post-left-sub-topic" class="" title="HTML Paragraph" href="HTML_paragraph.html">HTML Paragraph</a>
+
+                            <a class="post-left-sub-topic" class="" title="HTML Links" href="HTML_links.html">HTML Links</a>
+                            
+                        </div>
+                    </div>
+                    <!-- end of post page left sub-topic section -->
+                    <!-- end of post page left sub-topic section -->
+
+                    <div class="post-section-mid">
+                        <div class="post-mid-topic">
+                            <abbr><h1>Introduction</h1></abbr>
+                            <abbr><h1>What is HTML?</h1></abbr>
+                        </div>
+                            <p class="article"><span>HTML(Hypertext Markup Language)</span> is used by developers to structure the webpage. Anywhere you navigate on any website, every single page is developed using new HTML file. HTML is language understood by the web-browser and instructs browser to display content. It is like a skeleton of a webpage. IT is a very easy language to understand and to implement. HTML tags for a HTML element, elements combine to form a part, parts combine to form a section, sections combine to form a webpage and webpages combine to form a website.<br> Even this page you are reading is made using HTML. This page is made of different sections. On-top you see a header navbar below to which is a sub-navigation bar and then comes the main section which is divided in vertical sections, and finally at bottom we have a footer. But HTML alone doesn't make a final product as it appears to us. As HTML acts as skeleton, CSS is needed to beautify the webpage which may be considered as muscles and skin of a human body, and Javascript is needed to add functions which may be considered as nervous system.<br> HTML has different components like tags and elements, attributes, meta data, etc.</p>
+
+                            <p class="article">You should have installled an IDE(text editor) which probably might be VS Code and a web-browser, google chrome or mozilla firefox would be perfect to start with web-development.<br> <a href="vs_code_download.php">How to download and install VS Code IDE?</a></p>
+                       
+                    </div>
+
+                        
+
+                    <div class="post-section-right">
+                        <!-- code here to add at right of post page -->
+                    </div>
+                </section>
+            </div>
+            <!-- end of main post section -->
+            <!-- section 2 -->
+
+            <!-- footer.php -->
+            <!-- <?php
+                include 'footer.php';
+            ?> -->
+            <!-- end of footer.php -->
+
+            <!-- scroll btn -->
+            <!-- <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+            </a> -->
+            <!-- end of scroll btn -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // for background yellow color on click
+        $(document).ready(function(){
+            $('.post-left-sub-topic').click(function(){
+                $(this).toggleClass('selected-post').siblings().removeClass('selected-post');
+             });
+        });
+    </script>
+</body>
+</html>

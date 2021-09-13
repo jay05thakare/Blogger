@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Links | HTML &lt;a&gt; Tag</title>
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" 
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/vs2015.css" 
+    />
+
+    <style>
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- post page -->
+        <div class="post-page">
+            <!-- section 1 -->
+            <section class="post-page-section-1 header">
+                
+            <!-- header.php -->
+            <?php
+                    include 'header.php';
+                    ?>
+                <!-- end of header.php -->
+
+                <!-- navigation -->
+                 <?php
+                    include 'navigation_common.php';
+                    ?>
+                <!-- end of navigation -->
+                
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <!-- main post section -->
+            <div class="post-section-2-wrapper">
+                <section class="post-section-2">
+                    
+                    <!-- post page left sub-topic section -->
+                    <?php
+                        include 'HTML_common.php';
+                    ?>
+                    <!-- end of post page left sub-topic section -->
+                    <!-- section mid -->
+                    <div class="post-section-mid">
+                        <div class="post-mid-topic">
+                            <abbr><h1>HTML Paragraph</h1></abbr>
+                        </div>
+                        <p class="article"><abbr><strong>&lt;HTML paragraph&gt;</strong></abbr> <span class="span-tag">&lt;p&gt;</span> tag is used to display context or to describe about heading . Content within <span class="span-tag">&lt;p&gt;</span> and <span class="span-tag">&lt;/p&gt;</span> is displayed as paragraph.</p>
+
+                        <div class="component-section">
+                            <abbr><h3 class="component">&lt;p&gt; tag syntax</h3></abbr>
+                            <p class="article">
+                                <span><b>&lt;p&gt;</b></span> <i> paragraph_content </i> <span><b>&lt;/p&gt;</b></span>
+                            </p>
+
+                            <div class="code-box">
+                                <h4 class="code-box-heading">HTML paragraph example</h4>
+                                <div class="code-inner-box">
+                                    <pre><code>&lt;p&gt; Hello World! &lt;/p&gt;</code></pre>
+                                </div>
+                            </div>
+                            <img src="HTML_images/paragraph 1.webp" alt="Hello world!" class="component-image" style="height: 10rem; width:90%; object-fit:contain; padding-left:2rem;">
+                        </div>
+
+                        <div class="component-section">
+                            <h3 class="component">Paragraph tag properties</h3>
+                            <p class="article"><i class="fas fa-circle" style="font-size: 1.2rem; margin-right:1rem; top:50%; transform:translateY(-25%);"></i><abbr><strong>Paragraph tag</strong></abbr> doesn't give a sh*t about any indentation for a new line or any number of spaces except the first space. It just returns a string/sentence with a single space between two words. For example in code below there are many spaces in between words and some new lines. But still the output is a single sentence with single space betweeen words.</p>
+
+                            <div class="code-box">
+                                <h4 class="code-box-heading">Example 1</h4>
+                                <div class="code-inner-box">
+                                    <pre><code>&lt;p&gt; Dogs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;are<br>&nbsp;&nbsp;&nbsp;&nbsp;the best<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;friend<br>anyone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;can&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;have.
+&lt;/p&gt;</code></pre> 
+                                </div>
+                            </div>
+                            <img src="HTML_images/paragraph 2.webp" alt="HTML paragraph" class="component-image" style="height: 10rem; width:90%; object-fit:contain; padding-left:2rem;">
+
+                            <p class="article note" style="margin-bottom: 15rem; margin-top: 10rem;"><b>Note:</b> To add extra space, we use &nsbp which is an HTML entity. We will learn more about entities in our <a href="HTML_entity.php">HTML Entity</a> chapter.</p>
+
+                            <p class="article"><i class="fas fa-circle" style="font-size: 1.2rem; margin-right:1rem; top:50%; transform:translateY(-25%);"></i>To change a paragraph, use another paragraph tag or you can add a <span class="span-tag">&lt;br&gt;</span> break tag to change the paragraph without shifting to a new <span class="span-tag">&lt;p&gt;</span> tag.</p>
+                            <div class="code-box">
+                                <h4 class="code-box-heading">Example 2</h4>
+                                <div class="code-inner-box">
+                                    <pre><code>&lt;p&gt;
+  How are you?
+&lt;/p&gt;<br>
+&lt;p&gt;
+  I am fine.
+&lt;/p&gt;</code></pre> 
+                                </div>
+                            </div>
+                            <img src="HTML_images/paragraph 3.webp" alt="HTML paragraph example" class="component-image" style="height: 10rem; width:90%; object-fit:contain; padding-left:2rem;">
+
+
+
+                            <p class="article"><i class="fas fa-circle" style="font-size: 1.2rem; margin-right:1rem; top:50%; transform:translateY(-25%);"></i>Using <span class="span-tag">&lt;br&gt;</span> tag to break sentences to new line.</p>
+                            <p class="article"><span class="span-tag">&lt;br&gt;</span> break tag bring sentence to new line. This is useful when you have to keep changing line, like while writting a poem or a conversation.</p>
+                            <div class="code-box">
+                                <h4 class="code-box-heading">Example 3</h4>
+                                <div class="code-inner-box">
+                                    <pre><code>&lt;p&gt; How are you? &lt;br&gt;I am fine. &lt;p&gt;</code></pre> 
+                                </div>
+                            </div>
+                            <img src="HTML_images/paragraph 4.webp" alt="HTML paragraph example" class="component-image" style="height: 10rem; width:90%; object-fit:contain; padding-left:2rem;">
+                        <p class="article note" style="margin-bottom: 5rem; margin-top: 10rem;"><b>Note:</b> You can use multiple <span class="span-tag">&lt;br&gt;</span> tags to get empty space after paragraph.</p>
+                        </div>
+
+
+                            
+                        
+                       
+                    </div> 
+                    <!-- end of section mid -->
+
+                        
+
+                    <div class="post-section-right">
+                        <!-- code here to add at right of post page -->
+                    </div>
+                </section>
+            </div>
+            <!-- end of main post section -->
+            <!-- section 2 -->
+
+            <!-- footer.php -->
+            <?php
+                include 'footer.php';
+            ?>
+            <!-- end of footer.php -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="script.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>

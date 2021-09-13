@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogger</title>
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+
+    <div class="container">
+        <!-- post page -->
+        <div class="post-page">
+            <!-- section 1 -->
+            <section class="post-page-section-1 header">
+                
+            <!-- header.php -->
+            <?php
+                    include 'header.php';
+                    ?>
+                <!-- end of header.php -->
+
+                 <!-- navigation -->
+                 <?php
+                    include 'navigation_common.php';
+                    ?>
+                <!-- end of navigation -->
+
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <!-- main post section -->
+            <div class="post-section-2-wrapper">
+                <section class="post-section-2">
+                    
+                    <!-- post page left sub-topic section -->
+                    <?php
+                        include 'installation_common.php';
+                    ?>
+                    <!-- end of post page left sub-topic section -->
+
+
+                    <div class="post-section-mid">
+                        <div class="post-mid-topic">
+                            <h1>Introduction</h1>
+                            <h1>Tools required to start coding.</h1>
+                        </div>
+                        <p class="article">Installing a environment offline for writing code makes it very handy to start anywhere anytime.</p>
+                        <p class="article">A very basic tool, a device which maybe a smart phone, a tablet, laptop or desktop. Smart phone (also some android tablets) does not need/support a installed environment. You can install <a href="https://play.google.com/store/apps/details?id=com.paprbit.dcoder">Decoder Mobile App</a> to compile code online. But a installed environment is best for other devices.</p>
+                        <h3 class="component">Tools required to get started with coding</h3>
+                        <ol type="1" class="article">
+                            <li>IDE</li>
+                            <li>Compiler</li>
+                            <li>Web browser</li>
+                        </ol>
+
+                        <div class="component-section">
+                            <h3 class="component">IDE</h3>
+                            <p class="article">Very first thing you need to get to start is a text editor, a place where you will type or write code. </p>
+                            <p class="article"><b> IDE</b>(Integrated Development Environment) is a software application which provides an evironment with specially designed text editor. IDE normally consist at least a source code editor, build automation and a debugger. There are many IDEs like VS Code, NETBeans, IntelliJ, etc. But IDE developed by microsoft and used by many professional, <a href="https://code.visualstudio.com/docs"><b> VS Code</b></a> (Virtual Studio Code) is the best code editor.</p>
+                            <p class="article">(P.S- You should know that IDE does not compile or gives output. Compiler does this work.)</p>
+                            <a href="#" class="article">Downloading and installing VS Code</a>
+                            <!-- <img class="component-image" src="" alt=""> -->
+                        </div>
+                        <div class="component-section">
+                            <h3 class="component">Compiler</h3>
+                            <p class="article">A compiler is a special program that processes code written in a particular programming language and turns them into a machine language or code that computer's processor understands. There are hindreds of programming languages, therefore it's sensible to download only that compiler which you need for a programming language.</p>
+                            <p class="article">(P.S- You dont need a compiler for web-development, i.e for markup language HTML CSS. You need a web browser in this case.)</p>
+                        </div>
+                        <div class="component-section">
+                            <h3 class="component">Web browser</h3>
+                            <p class="article">Web browser like google chrome, mozilla firefox, etc is required when you are dealing with markup language</p>
+                            <p class="article">(P.S- You dont need a compiler for web-development, i.e for markup language.)</p>
+                        </div>
+                    </div>
+
+                    <div class="post-section-right">
+
+                    </div>
+                </section>
+            </div>
+            <!-- end of main post section -->
+            <!-- section 2 -->
+
+            <!-- footer.php -->
+            <?php
+                include 'footer.php';
+            ?>
+            <!-- end of footer.php -->
+
+            <!-- scroll btn -->
+            <!-- <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+            </a> -->
+            <!-- end of scroll btn -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

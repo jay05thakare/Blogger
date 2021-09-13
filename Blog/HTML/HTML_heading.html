@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Heading</title>
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/vs2015.css" />
+
+    <style>
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- post page -->
+        <div class="post-page">
+            <!-- section 1 -->
+            <section class="post-page-section-1 header">
+                
+            <!-- header.php -->
+            <?php
+                    include 'header.php';
+                    ?>
+                <!-- end of header.php -->
+
+                <!-- navigation -->
+                 <?php
+                    include 'navigation_common.php';
+                    ?>
+                <!-- end of navigation -->
+                
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <!-- main post section -->
+            <div class="post-section-2-wrapper">
+                <section class="post-section-2">
+                    
+                    <!-- post page left sub-topic section -->
+                    <?php
+                        include 'HTML_common.php';
+                    ?>
+                    <!-- end of post page left sub-topic section -->
+                    <!-- section mid -->
+                    <div class="post-section-mid">
+                        <div class="post-mid-topic">
+                            <abbr><h1>HTML Heading</h1></abbr>
+                        </div>
+                        <p class="article"><abbr>HTML headings</abbr> are titles or subtitles of a webpage, which are important in terms of search engines. We use <span class="span-tag">&lt;h&gt;</span> tag to display heading. </p>
+
+                        <div class="component-section">
+                            <abbr title="Types of HTML headings"><h3 class="component">Types of HTML heading</h3></abbr>
+                            <p class="article">
+                                There are six types of heading from <span class="span-tag">&lt;h1&gt;</span> to <span class="span-tag">&lt;h6&gt;</span>, having a different font size and weight with descending priority level. H1 heading being most important to H6 being least. Every heading has some default font, size, and weight, but they can be changed using styles or CSS. 
+                            </p>
+                            <p class="article">
+                                Syntax:<br>
+                                <span><b>&lt;h1&gt;</b></span> <i> heading </i> <span><b>&lt;/h1&gt;</b></span>
+                            </p>
+
+                            <table class="article tag-table">
+                                <caption><abbr><h4>Types of HTML headings</h4></abbr></caption>
+                                <tr>
+                                    <th>Tag</th>
+                                    <th>Description</th>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="span-tag">&lt;h1&gt;</span></td>
+                                    <td>This is <span><h1 style="font-size: 32px;">H1 Heading</h1></span>(32px)</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="span-tag">&lt;h2&gt;</span></td>
+                                    <td>This is <span><h2 style="font-size: 24px;">H2 Heading</h2></span>(24px)</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="span-tag">&lt;h3&gt;</span></td>
+                                    <td>This is <span><h3 style="font-size: 19px;">H3 Heading</h3></span>(19px)</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="span-tag">&lt;h4&gt;</span></td>
+                                    <td>This is <span><h4 style="font-size: 16px;">H4 Heading</h4></span>(16px)</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="span-tag">&lt;h5&gt;</span></td>
+                                    <td>This is <span><h5 style="font-size: 14px;">H5 Heading</h5></span>(14px)</td>
+                                </tr>
+
+                                <tr>
+                                    <td><span class="span-tag">&lt;h6&gt;</span></td>
+                                    <td>This is <span><h6 style="font-size: 13px;">H6 Heading</h6></span>(13px)</td>
+                                </tr>
+                            </table><br><br>
+                            <p class="article">Title and targeted keywords should be present in the H1 heading of a page, it's not mandatory but best practice for SEO.</p>
+                            <p class="article note">Note: Do not use heading tag to describe paragraph to obtain bold and big content. Use heading tag for headings only.</p>
+                        </div>
+                        
+                       
+                    </div> 
+                    <!-- end of section mid -->
+
+                        
+
+                    <div class="post-section-right">
+                        <!-- code here to add at right of post page -->
+                    </div>
+                </section>
+            </div>
+            <!-- end of main post section -->
+            <!-- section 2 -->
+
+            <!-- footer.php -->
+            <?php
+                include 'footer.php';
+            ?>
+            <!-- end of footer.php -->
+
+            <!-- scroll btn -->
+            <!-- <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+            </a> -->
+            <!-- end of scroll btn -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="../../script.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>

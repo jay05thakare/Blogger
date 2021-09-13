@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction</title>
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- post page -->
+        <div class="post-page">
+            <!-- section 1 -->
+            <section class="post-page-section-1 header">
+                
+            <!-- header.php -->
+            <?php
+                    include 'header.php';
+                    ?>
+                <!-- end of header.php -->
+
+                <!-- navigation -->
+                 <?php
+                    include 'navigation_common.php';
+                    ?>
+                <!-- end of navigation -->
+                
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <!-- main post section -->
+            <div class="post-section-2-wrapper">
+                <section class="post-section-2">
+                    
+                    <!-- post page left sub-topic section -->
+                    <?php
+                        include 'HTML_common.php';
+                    ?>
+                    <!-- end of post page left sub-topic section -->
+
+                    <div class="post-section-mid">
+                        <div class="post-mid-topic">
+                            <abbr><h1>HTML Basic</h1></abbr>
+                        </div>
+                        <p class="article">HTML has a basic structure code which helps browser to understand about the document.</p>
+
+                        <div class="component-section">
+                        <h3 class="component">Basic structure</h3>
+                            <div class="code-box">
+                                <abbr><h4 class="code-box-heading">HTML basic structure</h4></abbr>
+                                <div class="code-inner-box">
+                                    <pre><code>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&nbsp;&nbsp;&lt;title&gt;Title&lt;/title&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&nbsp;&nbsp;&lt;h1&gt;This is H1 heading&lt;/h1&gt;<br>&nbsp;&nbsp;&lt;p&gt;This is paragraph&lt;/p&gt;<br>&nbsp;&nbsp;&lt;p&gt;Hello World!&lt;/p&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;<br></code></pre>
+                                </div>
+                            </div>
+                            <p class="article" >
+                                <ol style="list-style-type:lower-roman;" class="article">
+                                    <span class="span-tag"><li><b>&lt;!DOCTYPE html&gt;</b>&nbsp;</span>defines that document is HTML5 file and contains HTML source code.</li>
+                                    <span class="span-tag"><li><b>&lt;html&gt;</b>&nbsp;</span>tag is base element of HTML page.</li>
+                                    <span class="span-tag"><li><b>&lt;head&gt;</b>&nbsp;</span>tag contains meta information of HTML page.</li>
+                                    <span class="span-tag"><li><b>&lt;title&gt;</b>&nbsp;</span>tag gives title to HTML page which is displayed in tab of browser.</li>
+                                    <span class="span-tag"><li><b>&lt;body&gt;</b>&nbsp;</span>tag contains structure of webpage. In this tag all the html code will be written.</b></li>
+                                    <span class="span-tag"><li><b>&lt;h1&gt;</b>&nbsp;</span>tag displays a H1 heading in browser.</li>
+                                    <span class="span-tag"><li><b>&lt;p&gt;</b>&nbsp;</span>tag displays a paragraph in browser.</li>
+                                </ol>
+                            </p>
+                            <p class="article">This is how the webpage looks like:</p>
+                            <img src="HTML_images/basic 1.webp" alt="HTML basic example" class="component-image" style="width: 90%;">
+                        </div>
+                       
+                    </div>
+
+                        
+
+                    <div class="post-section-right">
+                        <!-- code here to add at right of post page -->
+                    </div>
+                </section>
+            </div>
+            <!-- end of main post section -->
+            <!-- section 2 -->
+
+            <!-- footer.php -->
+            <?php
+                include 'footer.php';
+            ?>
+            <!-- end of footer.php -->
+
+            <!-- scroll btn -->
+            <!-- <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+            </a> -->
+            <!-- end of scroll btn -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

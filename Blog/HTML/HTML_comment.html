@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Comment</title>
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/vs2015.css" />
+
+    <style>
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- post page -->
+        <div class="post-page">
+            <!-- section 1 -->
+            <section class="post-page-section-1 header">
+                
+            <!-- header.php -->
+            <?php
+                    include 'header.php';
+                    ?>
+                <!-- end of header.php -->
+
+                <!-- navigation -->
+                 <?php
+                    include 'navigation_common.php';
+                    ?>
+                <!-- end of navigation -->
+                
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <!-- main post section -->
+            <div class="post-section-2-wrapper">
+                <section class="post-section-2">
+                    
+                    <!-- post page left sub-topic section -->
+                    <?php
+                        include 'HTML_common.php';
+                    ?>
+                    <!-- end of post page left sub-topic section -->
+                    <!-- section mid -->
+                    <div class="post-section-mid">
+                        <div class="post-mid-topic">
+                            <abbr><h1>HTML Comments</h1></abbr>
+                        </div>
+                        <p class="article">In beginning, when code is simple and short, it is easy to remember which part of the code does what. But with time when code becomes complex, it's difficult to remember the work of each part of code. So <abbr>HTML comment</abbr> help a developer to understand which part of code performs which task. This makes work easy when changes need to be made. But <abbr>HTML comment</abbr> are not displayed on a browser. Browser while decoding HTML file, it skips <abbr>HTML comment</abbr>. </p>
+
+                        <div class="component-section">
+                            <abbr><h3 class="component">HTML comment tag</h3></abbr>
+                            <p class="article">
+                                <span class="span-tag">&lt;!-- <i>comment here</i>  --&gt;</span> This is comment tag <br>
+                                <span class="span-tag">&lt;!--</span> this is start tag of HTML comment tag and <span class="span-tag">--&gt;</span> this is end tag of HTML tag. Content within these tags is considered as <abbr>HTML comment</abbr>.
+                            </p>
+                        </div>
+
+                        <div class="component-section">
+                            <h3 class="component">HTML comment example</h3>
+                            <div class="code-box">
+                                <div class="code-inner-box">
+<pre><code>  &lt;!-- start of section 1 --&gt;
+  &lt;h1&gt; This is section &lt;/h1&gt;
+  &lt;p&gt; This is section paragraph &lt;/p&gt;
+  &lt;p&gt; Observe the comment visible in browser. &lt;/p&gt;
+ &lt;!-- end of section 1 --&gt;
+</code></pre>
+                                </div>
+                            </div>
+                            <img src="HTML_images/comment 1.webp" alt="HTML Comment" class="component-image" style="height: 20rem; width:90%; object-fit:contain; padding-left:2rem;">
+                        </div>
+                        
+                       
+                    </div> 
+                    <!-- end of section mid -->
+
+                        
+
+                    <div class="post-section-right">
+                        <!-- code here to add at right of post page -->
+                    </div>
+                </section>
+            </div>
+            <!-- end of main post section -->
+            <!-- section 2 -->
+
+            <!-- footer.php -->
+            <?php
+                include 'footer.php';
+            ?>
+            <!-- end of footer.php -->
+
+            <!-- scroll btn -->
+            <!-- <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+            </a> -->
+            <!-- end of scroll btn -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="script.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>

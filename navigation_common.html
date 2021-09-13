@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="post.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- navigation -->
+    <div class="post-navigation-wrapper">
+        <div class="post-navigation">
+            <a class="navigation-item" title="Home" href="learn_blog.php"><i class="fa fa-home"></i></a>
+            <a class="navigation-item" title="HTML"  href="HTML_introduction.php">HTML</a>
+            <a class="navigation-item" title="CSS" class="" href="#">CSS</a>
+            <!-- <a class="navigation-item" title="Javascript" class="" href="#">Javascript</a> -->
+            <a class="navigation-item" title="PHP" class="" href="#">PHP</a> -->
+            <a class="navigation-item" title="HTML" class="" href="#">Movies</a>
+            <a class="navigation-item" title="Installation"  href="#">Installation</a>
+            <!-- <a title="Topic 6" class="">Topic 6</a>
+            <a title="Topic 7" class="">Topic 7</a>
+            <a title="Topic 8" class="">Topic 8</a>
+            <a title="Topic 9" class="">Topic 9</a>
+            <a title="Topic 10" class="">Topic 10</a> -->
+        </div>
+    </div>
+    <!-- end of navigation -->
+
+    <script>
+        // for background yellow color on click
+        $(document).ready(function(){
+            $('.navigation-item').click(function(){
+                $(this).toggleClass('selected-nav-item').siblings().removeClass('selected-nav-item');
+             });
+        });
+    </script>
+</body>
+</html>

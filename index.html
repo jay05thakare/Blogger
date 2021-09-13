@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogger</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    
+    <!-- <div class="spinner-container">
+        <div class="circles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <!-- front page -->
+        <div class="front-page">
+            <!-- section 1 -->
+            <section class="section-1">
+
+                <!-- header.php -->
+                <!-- <?php
+                    include 'header.php';
+                    ?> -->
+                <div class="navbar-wrapper">
+                    <nav class="navbar">
+                        <!-- <div class="menu">
+                            <div class="menu-icon">
+                                <div class="line line-1"></div>
+                                <div class="line line-2"></div>
+                                <div class="line line-3"></div>
+                            </div>
+                            <span>Menu</span>
+                        </div> -->
+                        <div class="navbar-logo">
+                            <!-- <span class="p-1">P</span>
+                            <span class="p-2">P</span> -->
+                            <a href="index.php" class="logo">Blogger</a>
+                        </div>
+
+                        
+                        <ul class="nav-list">
+                            <li class="nav-list-item dropdown-hover">
+                                <a href="#" class="nav-list-link show-dropdown">Read <i class="fas fa-chevron-down"></i></a>
+                                <ul class="nav-dropdown nav-dropdown-personal">
+                                    <li class="nav-dropdown-item dropdown-heading">
+                                        <a href="#" class="dropdown-heading-link">
+                                            Read<i class="fas fa-chevron-down"></i>
+                                        </a>
+                                    </li>
+
+                                    <div class="nav-dropdown-list-item-wrapper">
+                                        <li class="nav-dropdown-item">
+                                            <a href="#" class="nav-dropdown-link-1">Social Topics</a>
+                                            <a href="#" class="nav-dropdown-link-2">Femenism</a>
+                                            <a href="#" class="nav-dropdown-link-2">Patriarchy</a>
+                                            <a href="#" class="nav-dropdown-link-2">Equality</a>
+                                        </li>
+                                        <li class="nav-dropdown-item">
+                                            <a href="#" class="nav-dropdown-link-1">Movie Reviews</a>
+                                            <a href="#" class="nav-dropdown-link-2">Begin Again</a>
+                                        </li>
+                                        <!-- <li class="nav-dropdown-item">
+                                            <a href="#" class="nav-dropdown-link-1">Topic 3</a>
+                                            <a href="#" class="nav-dropdown-link-2">Description</a>
+                                        </li> -->
+                                        <!-- <li class="nav-dropdown-item">
+                                            <a href="#" class="nav-dropdown-link-1">Topic 4</a>
+                                            <a href="#" class="nav-dropdown-link-2">Description</a>
+                                        </li> -->
+                                    </div>
+                                </ul>
+                            </li>
+
+                            <li class="nav-list-item dropdown-hover">
+                                <a href="#" class="nav-list-link show-dropdown">Learn <i class="fas fa-chevron-down"></i></a>
+                                <ul class="nav-dropdown nav-dropdown-business">
+                                    <li class="nav-dropdown-item dropdown-heading">
+                                        <a href="#" class="dropdown-heading-link">
+                                            Learn<i class="fas fa-chevron-down"></i>
+                                        </a>
+                                    </li>
+
+                                    <div class="nav-dropdown-list-item-wrapper">
+                                        <li class="nav-dropdown-item">
+                                            <a href="#" class="nav-dropdown-link-1">HTML & CSS</a>
+                                            <a href="#" class="nav-dropdown-link-2">Learn HTML</a>
+                                            <a href="#" class="nav-dropdown-link-2">Learn CSS</a>
+                                        </li>
+                                        <!-- <li class="nav-dropdown-item">
+                                            <a href="#" class="nav-dropdown-link-1">Topic 2</a>
+                                            <a href="#" class="nav-dropdown-link-2">Description</a>
+                                        </li>
+                                        <li class="nav-dropdown-item">
+                                            <a href="#" class="nav-dropdown-link-1">Topic 3</a>
+                                            <a href="#" class="nav-dropdown-link-2">Description</a>
+                                        </li> -->
+                                        <li class="nav-dropdown-item">
+                                            <a href="#" class="nav-dropdown-link-1">Installation and Settup</a>
+                                            <a href="#" class="nav-dropdown-link-2">VS Code</a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <!-- <li class="nav-list-item">
+                                <a href="#" class="nav-list-link">Partners and Developers</a>
+                            </li> -->
+                        </ul>
+                        <!-- <div class="navbar-buttons">
+                            <button class="navbar-btn login-btn login">Login</button>
+                            <button class="navbar-btn signup-btn signup">Signup</button>
+                        </div> -->
+
+                        <div class="menu">
+                            <div class="hamburger-menu">
+                                <div class="line line-1"></div>
+                                <div class="line line-2"></div>
+                                <div class="line line-3"></div>
+                                <span>Close</span>
+                            </div>
+                        </div>
+
+                        <div class="sidebar">
+                            <ul class="sidebar-menu">
+                            <li class="sidebar-menu-item">
+                                <a href="index.html" class="sidebar-menu-link" data-content="Home">Home</a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a href="blog.html" class="sidebar-menu-link" data-content="Blog">Blog</a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a href="about.html" class="sidebar-menu-link" data-content="About Us">About Us</a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a href="team.html" class="sidebar-menu-link" data-content="Team">Team</a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a href="contact.html" class="sidebar-menu-link" data-content="Contact">Contact</a>
+                            </li>
+                            </ul>
+                    
+                            <div class="social-media front-page-social-media">
+                            <a href="#none"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#none"><i class="fab fa-instagram"></i></a>
+                            <a href="#none"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                    
+                <!-- end of header.php -->
+
+                <div class="banner">
+                    <h1 class="banner-heading">We've Got You Covered</h1>
+                    <p class="banner-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo maxime est nobis. Ab et laudantium dolore. Magnam quo esse consequuntur sint voluptatem nihil corrupti totam!</p>
+                    <a href="blog.php"> <button class="blue-btn">Learn More</button> </a>
+                </div>
+
+                <!-- slideshow -->
+                <div class="slideshow"></div>
+                <!-- end of slideshow -->
+
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <section class="section-2">
+                <div class="section-2-heading-wrapper">
+                    <div class="section-2-heading">
+                        <h1>Heading</h1>
+                        <h3>Lorem ipsum dolor sit TAGLINE amet consectetur adipisicing elit. Corporis, rerum!</h3>
+                    </div>
+                </div>
+
+                <div class="section-2-block-wrapper">
+                    <div class="section-2-block">
+                        <div class="block-content">
+                            <h2>Sub-Heading-1</h2>
+                            <h3>Lorem ipsum dolor sit TAGLINE amet consectetur adipisicing elit. Corporis, rerum!</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod labore odit quae assumenda. Quos error voluptas nam unde suscipit beatae perspiciatis eos est minus, culpa dolorem adipisci vitae animi sint voluptatem aperiam similique, optio, qui repudiandae fugit facilis quis minima asperiores voluptatum? Nam, consequuntur enim, delectus maiores error ipsam vero suscipit modi iure neque recusandae aliquam, quaerat possimus temporibus totam reiciendis nisi? Velit eum incidunt, vitae</p>
+                            <button class="block-btn">Read<i class="fas fa-arrow-right"></i></button>
+                        </div>
+                        
+                        <div class="block-folders">
+                            <a href="#" class="block-folder large-folder folder-1"></a>
+                            <a href="#" class="block-folder large-folder folder-2"></a>
+                            <!-- <a href="#" class="block-folder small-folder folder-3">HII</a>
+                            <a href="#" class="block-folder small-folder folder-4">HRY</a> -->
+                            <a href="#" class="block-folder large-folder folder-7"></a>
+                            <!-- <a href="#" class="block-folder small-folder folder-5"></a>
+                            <a href="#" class="block-folder small-folder folder-6"></a> -->
+
+                            <!-- temporary folder -->
+                            <a href="#" class="block-folder large-folder folder-8"></a>
+                            <!-- end of temporary folder -->
+                        </div>
+                    </div>
+                    <div class="section-2-block">
+                        <div class="block-content">
+                            <h2>Sub-Heading-2</h2>
+                            <h3>Lorem ipsum dolor sit TAGLINE amet consectetur adipisicing elit. Corporis, rerum!</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod labore odit quae assumenda. Quos error voluptas nam unde suscipit beatae perspiciatis eos est minus, culpa dolorem adipisci vitae animi sint voluptatem aperiam similique, optio, qui repudiandae fugit facilis quis minima asperiores voluptatum? Nam, consequuntur enim, delectus maiores error ipsam vero suscipit modi iure neque recusandae aliquam, quaerat possimus temporibus totam reiciendis nisi? Velit eum incidunt, vitae</p>
+                            <button class="block-btn">Learn<i class="fas fa-arrow-right"></i></button>
+                        </div>
+                        <div class="block-folders">
+                            <a href="#" class="block-folder large-folder folder-8"><div></div></a>
+                            <a href="#" class="block-folder large-folder folder-9"><div></div></a>
+                            <!-- <a href="#" class="block-folder small-folder folder-10"><div></div></a>
+                            <a href="#" class="block-folder small-folder folder-11"><div></div></a> -->
+                            <a href="#" class="block-folder large-folder folder-14"><div></div></a>
+                            <!-- <a href="#" class="block-folder small-folder folder-12"><div></div></a>
+                            <a href="#" class="block-folder small-folder folder-13"><div></div></a> -->
+
+                            <!-- temporary folder -->
+                            <a href="#" class="block-folder large-folder folder-8"></a>
+                            <!-- end of temporary folder -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of section 2 -->
+
+            <!-- section 3 -->
+            <section class="section-3">
+                <div class="section-3-block">
+                    <div class="section-3-block-box">
+                        <h2>Popular Posts</h2>
+                        <div class="popular-post popular-post-1">
+                            <h3 class="popular-post-heading">Post name</h3>
+                            <span class="popular-post-date">April 14, 2021</span>
+                        </div>
+                        <div class="popular-post popular-post-2">
+                            <h3 class="popular-post-heading">Post name</h3>
+                            <span class="popular-post-date">April 14, 2021</span>
+                        </div>
+                        <div class="popular-post popular-post-3">
+                            <h3 class="popular-post-heading">Post name</h3>
+                            <span class="popular-post-date">April 14, 2021</span>
+                        </div>
+                        <div class="popular-post popular-post-4">
+                            <h3 class="popular-post-heading">Post name</h3>
+                            <span class="popular-post-date">April 14, 2021</span>
+                        </div>
+                    </div>
+
+                    <div class="section-3-block-box">
+                        <div class="tag-wrapper">
+                            <h2>Tags</h2>
+                            <div class="tags">
+                                <span class="tag">Add</span>
+                                <span class="tag">Famous 2</span>
+                                <span class="tag">Tags 3</span>
+                                <span class="tag">Travel</span>
+                                <span class="tag">How to  5</span>
+                                <span class="tag">Canva 6</span>
+                                <span class="tag">i</span>
+                                <span class="tag">Photoshop 8</span>
+                                <span class="tag">Movies 9</span>
+                                <span class="tag">C++ 7</span>
+                                <span class="tag">Java 8</span>
+                                <span class="tag">daVinci Resolve 9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of section 3 -->
+
+            <!-- footer.php -->
+            <!-- <?php
+                include 'footer.php';
+            ?> -->
+            <!-- end of footer.php -->
+
+            <!-- scroll btn -->
+            <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+            </a>
+            <!-- end of scroll btn -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="script.js"></script>
+    <script src="home_slideshow.js"></script>
+</body>
+</html>

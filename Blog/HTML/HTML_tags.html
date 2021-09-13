@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- post page -->
+        <div class="post-page">
+            <!-- section 1 -->
+            <section class="post-page-section-1 header">
+                
+            <!-- header.php -->
+            <?php
+                    include 'header.php';
+                    ?>
+                <!-- end of header.php -->
+
+                <!-- navigation -->
+                 <?php
+                    include 'navigation_common.php';
+                    ?>
+                <!-- end of navigation -->
+                
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <!-- main post section -->
+            <div class="post-section-2-wrapper">
+                <section class="post-section-2">
+                    
+                    <!-- post page left sub-topic section -->
+                    <?php
+                        include 'HTML_common.php';
+                    ?>
+                    <!-- end of post page left sub-topic section -->
+
+                    <div class="post-section-mid">
+                        <div class="post-mid-topic">
+                            <abbr><h1>HTML Tags</h1></abbr>
+                        </div>
+                        <p class="article"><abbr>HTML tags</abbr> are hidden keyword in a page that defines how a browser must display/structure the content.</p>
+
+                        <div class="component-section">
+                            <abbr><h3 class="component">Types of tags</h3></abbr>
+                            <p class="article">
+                                There are two types tags, <span>1.Paired tag</span> and <span>2.Single tag</span>.<br>
+                                <span>Paired tag</span> has opening and closing tag like <span class="span-tag">&lt;p&gt;</span> <span class="span-tag">&lt;/p&gt;</span>.<br>
+                                <span>Single tag</span> has only opening tag like <span class="span-tag">&lt;img&gt;</span>.<br>
+                            </p>
+                            
+                            <img src="HTML_images/tags 1.webp" alt="Types of tags" class="component-image">
+
+                            <p class="article">
+                                Content within tag is collectively called HTML element.</p>
+                        </div>
+
+                        <div class="component-section">
+                            <h3 class="component">Tags categories</h3>
+                            <p class="article">
+                                <ol class="article category-box">
+                                    <li><a href="HTML_tags.php" target="_blank">1. Basic tags</li></a>
+                                    <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp#:~:text=A%20semantic%20element%20clearly%20describes,%3E%20%2D%20Clearly%20defines%20its%20content." target="_blank">2. Semantic tags</li></a>
+                                    <li><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">3. List tags</li></a>
+                                    <li><a href="#">4. Table tags</li></a>
+                                    <li><a href="https://www.tutorialspoint.com/html5/html5_audio_video.htm" target="_blank">5. Audio and Video tags</li></a>
+                                    <li><a href="#">6. Images tags</li></a>
+                                    <li><a href="#">7. Form tags</li></a>
+                                    <li><a href="#">8. Meta description tags</li></a>
+                                </ol>
+                            </p>
+                        </div>
+
+                        <div class="component-section">
+                            <h3 class="component">Tags</h3>
+                            <table class="article tag-table">
+                                <tr>
+                                    <th>Tag</th>
+                                    <th>Description</th>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;!-- </span>   <i>comment</i>   <span class="span-tag"> --&gt;</span></td>
+                                    <td>Text written in these tag is skipped by browser</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;!DOCTYPE&gt;</span></td>
+                                    <td>Defines HTML5 document</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;title&gt;</span></td>
+                                    <td>Displays title of webpage on browser tab</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;header&gt;</span></td>
+                                    <td>Defines header of a webpage</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;footer&gt;</span></td>
+                                    <td>Deefines footer of a webpage</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;h1&gt;</span></td>
+                                    <td>H1 main heading(32px)</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;h2&gt;</span></td>
+                                    <td>H2 heading(24px)</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;h3&gt;</span></td>
+                                    <td>H3 heading(19px)</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;h4&gt;</span></td>
+                                    <td>H4 heading(16px)</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;h5&gt;</span></td>
+                                    <td>H5 heading(14px)</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;h6&gt;</span></td>
+                                    <td>H6 heading(13px)</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;p&gt;</span></td>
+                                    <td>Displays paragraph</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;br&gt;</span></td>
+                                    <td>Break tag is used to start paragraph from <br>next line without using new &lt;p&gt; tag</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;b&gt;</span></td>
+                                    <td>Used to make text <b>bold</b></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;i&gt;</span></td>
+                                    <td>Used to make text <i>italic</i></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;u&gt;</span></td>
+                                    <td>Used to give text decoration <u style="text-decoration:underline;">underline</u></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;mark&gt;</span></td>
+                                    <td>Used to <mark>highlight</mark> text</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;em&gt;</span></td>
+                                    <td>Used to <em>emphasize</em> text</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;tt&gt;</span></td>
+                                    <td>Used to change font to typewriter style (not supported in HTML5)</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;strong&gt;</span></td>
+                                    <td>To give <strong>special importance</strong> to text</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;del&gt;</span></td>
+                                    <td>To <del style="text-decoration: line-through;">strikethrough</del> through context</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;a&gt;</span></td>
+                                    <td>Anchor tag is used to add link to any text, button, etc</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;link&gt;</span></td>
+                                    <td>Link tag is used to link different working files like .css external link, .js file, etc to a page</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;code&gt;</span></td>
+                                    <td>Defines a piece of computer code</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;rt&gt;</span></td>
+                                    <td>Used for explanation/pronounciation of <rt>character</rt></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;sub&gt;</span></td>
+                                    <td>Used for <sub>subscipted</sub> text</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;sup&gt;</span></td>
+                                    <td>Used for <sup>superscripted</sup> text</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="span-tag">&lt;template&gt;</span></td>
+                                    <td>Used for element/section that should be hidden when page reloads</td>
+                                </tr>
+                            </table><br><br><br><br>
+                            <p class="article">There are many <a href="https://www.w3schools.com/tags/default.asp" title="More Tags">more tags</a> used to make a useful webpage.</p>
+                        </div>
+
+                        <p class="article"><a href="#">What is difference between &lt;b&gt; and &lt;strong&gt;?</a> <br> <a href="#">What is difference between &lt;i&gt; and &lt;em&gt;?</a></p>
+                       
+                    </div>
+
+                        
+
+                    <div class="post-section-right">
+                        <!-- code here to add at right of post page -->
+                    </div>
+                </section>
+            </div>
+            <!-- end of main post section -->
+            <!-- section 2 -->
+
+            <!-- footer.php -->
+            <?php
+                include 'footer.php';
+            ?>
+            <!-- end of footer.php -->
+
+            <!-- scroll btn -->
+            <!-- <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+            </a> -->
+            <!-- end of scroll btn -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

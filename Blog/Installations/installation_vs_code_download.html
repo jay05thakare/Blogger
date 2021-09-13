@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogger</title>
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+
+    <div class="container">
+        <!-- post page -->
+        <div class="post-page">
+            <!-- section 1 -->
+            <section class="post-page-section-1 header">
+                
+            <!-- header.php -->
+            <?php
+                    include 'header.php';
+                    ?>
+                <!-- end of header.php -->
+
+                <!-- navigation -->
+                 <?php
+                    include 'navigation_common.php';
+                    ?>
+                <!-- end of navigation -->
+                
+            </section>
+            <!-- end of section 1 -->
+            
+            <!-- section 2 -->
+            <!-- main post section -->
+            <div class="post-section-2-wrapper">
+                <section class="post-section-2">
+                    
+                    <!-- post page left sub-topic section -->
+                    <?php
+                        include 'installation_common.php';
+                    ?>
+                    <!-- end of post page left sub-topic section -->
+
+                    <div class="post-section-mid">
+                        <div class="post-mid-topic">
+                            <abbr><h1>Virtual Studio Code Download and Installation</h1></abbr>
+                        </div>
+                        <p class="article">Virtual Studio Code is an IDE developed by microsoft and chose by most Programmers. VS Code provides environment to write and execute code.</p>
+                       
+                        <div class="component-section">
+                            <h3 class="component">Why choose VS Code</h3>
+                            <ol type="1" class="article">
+                                <li>1.  Lightning fast source code editor.</li>
+                                <li>2.  User friendly interface.</li>
+                                <li>3.  Super productive with syntax highlightning, box-selection, auto indentation, bracket-matching snippets, etc</li>
+                                <li>4.  Keyboard shortcuts and easy customization</li>
+                                <li>5.  In-built git support</li>
+                            </ol>
+                        </div>
+
+                        <div class="component-section">
+                            <ol >
+                                <li><abbr></abbr><h3 class="component">Downloading VS Code setup file</h3></abbr>
+                                    <ol class="article">
+                                        <li>1.  Google search <span> "Download VS Code"</span> and go to <b><a href="https://code.visualstudio.com/download" target="_blank">code.visualstudio.com > download</a></b></li>
+                                        <li>2.  Choose your operating system from Windows, Linux and IOS, and downloading of a .exe file will start automatically.
+                                        <img src="Installations/vs_code_download_images/image 1.webp" alt="Download VS Code" class="component-image">
+                                        </li>
+                                    </ol>
+                                </li>
+
+                                <li><h3 class="component">Run VS Code setup wizard</h3>
+                                    <p class="article">VS Code setup file is downloaded sucessfully. Run the setup file from location of download.</p>
+                                    <ol class="article">
+                                        <li><h4 class="component">1.    Setup - VS Code</h4>
+                                        <p class="article">At first it recommends to close all windows but its not mandatory.</p>
+                                        <!-- <img src="../Installations/vs_code_download_images/image 2.jpg" alt="VS Code setup wizard images" class="component-image"> -->
+                                        </li>
+
+                                        <li><h4 class="component">2.    License Agreement - VS Code</h4>
+                                        <p class="article">This is an agreement and you know how to read it in a second. It's safe so click on 'I agree' check-box.</p>
+                                        <p class="article">You cannot go ahead till you accept the agreement.</p>
+                                        <img src="vs_code_download_images/image 2.webp" alt="License Agreement - VS Code" class="component-image"></li>
+
+                                        <li><h4 class="component">3.    Select destination location - VS Code</h4>
+                                        <p class="article">Choose location in your system, but make sure the location is in local disk c where your operating system and other software are stored. If you don't have any specific reason to change  location, then it's best to go with default location.</p>
+                                        <p class="article">There should be 293.2 MB free disk space.</p>
+                                        <img src="vs_code_download_images/image 3.webp" alt="Select destination location - VS Code" class="component-image"></li>
+
+                                        <li><h4 class="component">4.    Select start menu folder - VS Code</h4>
+                                        <p class="article">As a default, VS Code shortcut will be added in 'Start' menu folder. We can change destination or skip creating shortcut.</p>
+                                        <img src="vs_code_download_images/image 4.webp" alt="" class="component-image"></li>
+
+                                        <li><h4 class="component">5.    Select additional tasks - VS Code</h4>
+                                        <p class="article">One of the important step! We get this important additional tasks. These tasks are handy so check all boxes unless you have any specific reason to uncheck them.</p>
+                                        <img src="vs_code_download_images/image 5.webp" alt="" class="component-image"></li>
+
+                                        <li><h4 class="component">6.    Ready to install - VS Code</h4>
+                                        <p class="article">Everything is properly set and VS Code is ready to get installed in system.</p>
+                                        <img src="vs_code_download_images/image 6.webp" alt="" class="component-image"></li>
+
+                                        <li><h4 class="component">7.    Finish and launch - VS Code</h4>
+                                        <p class="article">After succesful installation, we can launch VS Code in our system.</p>
+                                        <p class="article">You have to restart your device before using it for the first time. This step is mandatory.</p>
+                                        <img src="vs_code_download_images/image 7.webp" alt="" class="component-image"></li>
+                                    </ol>
+                                </li>
+                            </ol>
+                    </div>
+                    <div class="component-section">
+                        <p class="article">Congratulation! We have successfully downloaded and installed Virtual Studio Code IDE.<br><a href="#">How to set VS Code to design first web-page?</a> </p>
+                    </div>
+
+                    <div class="post-section-right">
+                        <!-- code here to add at right of post page -->
+                    </div>
+                </section>
+            </div>
+            <!-- end of main post section -->
+            <!-- section 2 -->
+
+            <!-- footer.php -->
+            <?php
+                include 'footer.php';
+            ?>
+            <!-- end of footer.php -->
+
+            <!-- scroll btn -->
+            <!-- <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+            </a> -->
+            <!-- end of scroll btn -->
+        </div>
+        <!-- end of front page -->
+
+
+        
+           
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
